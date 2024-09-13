@@ -1,0 +1,45 @@
+/* Styles personnalisés */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    color: #8B0000;
+}
+
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+
+header {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+section {
+    padding-top: 60px;
+}
+
+.testimonial {
+    position: relative;
+}
+
+.testimonial::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: -15px;
+    bottom: -15px;
+    background: linear-gradient(135deg, rgba(255,215,0,0.3), rgba(255,215,0,0));
+    z-index: -1;
+    transform: rotate(3deg);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
